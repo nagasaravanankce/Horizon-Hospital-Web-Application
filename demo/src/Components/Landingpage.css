@@ -1,0 +1,178 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.logo{
+  text-align: left;
+}
+
+.hospital-container {
+  width: 100%;
+}
+
+
+.header {
+  background-color: #0a183d;
+  color: white;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.header .logo {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header nav ul li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header nav ul li:hover {
+  color: #f0a500;
+}
+
+
+.hero {
+  background-color: #64b5f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #333;
+}
+
+.btn {
+  background-color: #0a183d;
+  
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: #f0a500;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: #e0e0e0;
+}
+
+.info-box {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.schedule {
+  background-color: #0a183d;
+  color: white;
+}
+
+.doctors {
+  background-color: #64b5f6;
+  color: black;
+}
+
+.contact {
+  background-color: #f0c05f;
+  color: black;
+}
+
+
+.experience {
+  text-align: center;
+  padding: 50px;
+  background-color: white;
+}
+
+.experience h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.experience p {
+  font-size: 16px;
+  color: #555;
+}
+
+.experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+.experience li {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+
+.footer {
+  background-color: navy;
+  color: white;
+  padding: 40px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section p {
+  font-size: 14px;
+  margin: 5px 0;
+}

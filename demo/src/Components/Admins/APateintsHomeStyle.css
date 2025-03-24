@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    background-color: #0C163A;
+    font-family: Arial, sans-serif;
+}
+
+/* Main Container */
+.container {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+    position: relative;
+}
+
+/* Back Button */
+.back-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    color: #7ACDC8;
+    cursor: pointer;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    flex: 1;
+    background: #B8E2FB;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tab.active {
+    background: #A0D2F5;
+}
+
+/* Form Container */
+.form-container {
+    background: linear-gradient(to right, #9AC6F3, #E3F2FD);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* Form Rows */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    width: 48%;
+}
+
+.input-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-box input,
+.input-box select {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.submit-btn {
+    background: #002C5F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #0056B3;
+}

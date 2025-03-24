@@ -1,0 +1,59 @@
+.diagnosis-container {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header-bar {
+    background-color: #0b0d29;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .home-button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .title {
+    background-color: #2c1245;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px auto;
+    width: fit-content;
+    border-radius: 15px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  td {
+    background-color: #cce6ff;
+  }
+  
+  .update-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  

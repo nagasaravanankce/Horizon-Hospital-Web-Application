@@ -1,0 +1,650 @@
+/* Hospital.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .hospital-container {
+    width: 100%;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #0a183d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+  }
+  
+  .header .logo {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header nav ul li {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .header nav ul li:hover {
+    color: #f0a500;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #64b5f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero h3 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  .hero p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .btn {
+    background-color: #0a183d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  
+  .btn:hover {
+    background-color: #f0a500;
+  }
+  
+  /* Info Section */
+  .info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #e0e0e0;
+  }
+  
+  .info-box {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .schedule {
+    background-color: #0a183d;
+    color: white;
+  }
+  
+  .doctors {
+    background-color: #64b5f6;
+    color: black;
+  }
+  
+  .contact {
+    background-color: #f0c05f;
+    color: black;
+  }
+  
+  /* Experience Section */
+  .experience {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+  }
+  
+  .experience h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .experience p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .experience ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .experience li {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: navy;
+    color: white;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    width: 30%;
+  }
+  
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  .appointments-container {
+    text-align: center;
+    padding: 50px 10%;
+    background-color: #f8fcff; /* Light background */
+  }
+  
+  /* Title and Subtitle */
+  .appointments-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .highlight {
+    color: #0088ff; /* Blue highlight */
+  }
+  
+  .appointments-subtitle {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  /* Layout */
+  .appointments-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  /* Image Section */
+  .appointments-image img {
+    max-width: 350px;
+    height: auto;
+  }
+  
+  /* Right Side - Appointment Options */
+  .appointments-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Appointment Boxes */
+  .appointment-box {
+    background: #dff2ff;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointment-box h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .appointment-box p {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Buttons */
+  .appointment-button {
+    background-color: #0088ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+
+  .appointment-banner3 {
+    background: #f9f7ff; /* Light background */
+    padding: 60px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Flex container */
+  .appointment-content3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* Left side - Text */
+  .appointment-text3 {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .appointment-subtitle3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #7c3aed; /* Purple */
+  }
+  
+  .appointment-title3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    margin: 5px 0;
+  }
+  
+  .appointment-description3 {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Button */
+  .appointment-button3 {
+    background: #7c3aed; /* Purple */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    /* transition: background 0.3s ease-in-out; */
+  }
+  
+  .appointment-button3:hover {
+    background: #5b23a8; /* Darker Purple */
+  }
+  
+  /* Right side - Image */
+  .appointment-image3 img {
+    max-width: 400px;
+    height: auto;
+  }
+  
+  
+  .why-choose-us {
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding: 60px 10%;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Overlay effect to dim background */
+  .why-choose-us::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    z-index: 1;
+  }
+  
+  /* Content Wrapper */
+  .why-choose-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Heading Styles */
+  .why-choose-title {
+    color: #7c3aed; /* Purple */
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .why-choose-heading {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 30px;
+  }
+  
+  /* Statistics Container */
+  .stats-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Individual Stat Cards */
+  .stats-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+  .stats-card:hover {
+    transform: translateY(-5px);
+    background: #5b23a8; 
+  }
+  
+  .stats-card h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .stats-card p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+
+  .core-values {
+    text-align: center;
+    padding: 50px;
+    background: #f9f9f9;
+  }
+  
+  .title {
+    color: #ff6600;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .heading {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .description {
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .values-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .value-card {
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .value-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+ 
+  
+  /* Colors for each card */
+  .reliability {
+    background: #f3e8ff;
+    border-left: 5px solid #9b59b6;
+  }
+  
+  .responsibility {
+    background: #fde8d0;
+    border-left: 5px solid #e67e22;
+  }
+  
+  .respect {
+    background: #d7f3ff;
+    border-left: 5px solid #3498db;
+  }
+  
+  .reasonable {
+    background: #fcd7e3;
+    border-left: 5px solid #e84393;
+  }
+  .specialties-container {
+    text-align: center;
+    padding: 40px;
+    background: #f9f9f9;
+  }
+  
+  .specialties-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .specialty-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: 0.3s;
+  }
+  
+  .specialty-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .specialty-icon {
+    font-size: 50px;
+    background: rgba(128, 0, 128, 0.1);
+    border-radius: 50%;
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  .specialty-name {
+    margin-top: 10px;
+    background: #6a1b9a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .know-more {
+    margin-top: 20px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .know-more:hover {
+    background: #e65c00;
+  }
+
+  .health-checkup-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    background: #f8f6fc;
+    width: 100%;
+  }
+    
+     
+  
+  .health-checkup-content {
+    max-width: 50%;
+  }
+  
+  .subtitle {
+    color: #7d29cb;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .book-button {
+    background: #7d29cb;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    /* transition: background 0.3s; */
+  }
+  
+  .book-button:hover {
+    background: #5c1a98;
+  }
+  
+  .health-checkup-image img {
+    width: 450px; /* Adjust as needed */
+    height: auto;
+  }
+
+  .hospital-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 80px;
+    background: #ffffff;
+  }
+  
+  .hospital-info-content {
+    max-width: 55%;
+  }
+  
+  .hospital-name {
+    color: #0077c0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .hospital-title {
+    font-size: 34px;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
+  }
+  
+  .hospital-description {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .hospital-info-image img {
+    width: 500px; /* Adjust as per your image */
+    height: auto;
+  }
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .info-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  

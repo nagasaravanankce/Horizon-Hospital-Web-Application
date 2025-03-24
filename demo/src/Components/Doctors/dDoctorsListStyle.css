@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  .header {
+    background-color: #0033a0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .input-container label {
+    color: white;
+  }
+  
+  .input-container input {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    background-color: #00ff00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .doctors-section {
+    background-color: #d3d3d3;
+    padding: 30px;
+    margin-top: 10px;
+  }
+  
+  .doctors-section h3 {
+    font-weight: bold;
+  }
+  
+  .doctors-section hr {
+    border: 2px solid black;
+    width: 100%;
+  }
+  
+  .doctor-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .doctor-card {
+    text-align: center;
+  }
+  
+  .doctor-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+  }
+  
+  .doctor-name {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .doctor-specialty {
+    font-weight: bold;
+  }
+  

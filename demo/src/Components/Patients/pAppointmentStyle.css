@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container2 {
+  width: 100%;
+  background-color: #0033a1;
+  color: rgb(255, 255, 255);
+}
+
+.appointment-section2 {
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.appointment-form2 {
+  max-width: 900px;
+  margin: auto;
+}
+
+.form-row2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.form-group2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: left;
+}
+
+.form-group2 label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.form-group2 input,
+.form-group2 select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.submit-container2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex: 1;
+}
+
+.submit-button {
+  background-color: limegreen;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* FOOTER SECTION */
+.footer {
+  background-color: navy;
+  color: white;
+  padding: 40px 50px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h3,
+.footer-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .form-row2 {
+    flex-direction: column;
+  }
+  .submit-container2 {
+    align-items: center;
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -1,0 +1,71 @@
+/* Login.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /*background: url('background-image.jpg') no-repeat center center fixed;*/
+    background-size: cover;
+  }
+  
+  .login-container5 {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    color: white;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin: 10px 0;
+    color: #5fa8d3;
+    text-decoration: none;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .btn {
+    background: #5fa8d3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signup-text {
+    margin-top: 20px;
+  }
+  
+  .signup-link {
+    color: #5fa8d3;
+    text-decoration: none;
+  }
+  

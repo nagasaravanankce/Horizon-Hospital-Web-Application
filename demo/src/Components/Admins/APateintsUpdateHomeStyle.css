@@ -1,0 +1,132 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Full-page container */
+.patient-container {
+  background-color: #0a0d2c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+/* Top Navigation */
+.top-bar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: #88f2f9;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-action {
+  background-color: #088faa;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.nav-action:hover {
+  background-color: #066d88;
+}
+
+/* Form Box */
+.form-box {
+  background: #d3e9ff;
+  width: 80%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tab {
+  background-color: #a0d0ff;
+  padding: 10px 15px;
+  border-radius: 8px 8px 0 0;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.active-tab {
+  background-color: white;
+  border: 2px solid black;
+}
+
+/* Form Content */
+.form-content {
+  background: linear-gradient(to bottom right, #9ecbff, #b3d9ff);
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+  width: 200px;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #f3ecff;
+  text-align: center;
+}
+
+/* Update Button */
+.update-btn {
+  background-color: #001f44;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.update-btn:hover {
+  background-color: #003377;
+}
